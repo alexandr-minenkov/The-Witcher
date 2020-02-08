@@ -334,7 +334,7 @@ color: #fff;
 
     .menu-button-active{
         height: 0;
-
+        z-index: 99;
     }
     
     .menu-button-active::before{
@@ -356,6 +356,7 @@ color: #fff;
         background-color: #9D2929;
         width: 250px;
         padding-bottom: 40px;
+        z-index: 1;
     }
 
     .header-active{
